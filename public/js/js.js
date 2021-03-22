@@ -13,5 +13,5 @@ btn.addEventListener('click', function() {
 });
 
 socket.on('message', (msg, name, date) => {
-    zpravy.innerHTML += "<div id='zprava' class='row'><div id='box-zleva' class='col-xs-6'><img src='./avatar2.jpg' height='150px'></div><div id='box-zprava' class='col-xs-6'><h1>"+name+"</h1><p style='color:gray;'>"+date+"</p></<p>"+msg+"</p></div></div>";
+    zpravy.innerHTML += "<div id='zprava' class='row'><div id='box-zleva' class='col-xs-6'><img src='./avatar2.jpg' height='150px'></div><div id='box-zprava' class='col-xs-6'><h1>"+name+"</h1><p style='color:gray;'>"+date+"</p></<p>"+msg+"</p></div></div><hr>";
 });     
