@@ -16,7 +16,7 @@ h1{
 }    
 
 #status{
-    width: 900px;
+    width: 50%;
     margin-left: 220px;
     margin-top: -30px;
 }
@@ -33,4 +33,20 @@ form{
 .btn-primary.custom-btn {
 	background-color: #000;
 	border-color: #000;
+}
+
+#zpravy { /* cely box se statusy*/
+    margin-top: 3%;
+}
+
+#zprava { /* box s statusem*/
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#box-zprava { /* box s jmenem a statusem */
+    padding-left: 2%;
+}
+
+#box-zleva { /* box s avatarem */
 }

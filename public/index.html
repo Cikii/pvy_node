@@ -18,14 +18,38 @@
         </nav>
     </header>
     <main>
-    <form>
-      <label for="fname">Jméno</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <textarea name="status" id="status" cols="30" rows="5"></textarea>
-      <input name="post" id="button" class="btn btn-primary custom-btn" type="button" value="Post">
-    </form>
-    <hr>
-     </main>
+      <form>
+        <label for="fname">Jméno</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <textarea name="status" id="status" cols="30" rows="5"></textarea>
+        <input name="post" id="button" class="btn btn-primary custom-btn" type="button" value="Post">
+      </form>
+      <hr>
+      <div id="zpravy">
+        <div id="zprava" class="row">
+          <div id="box-zleva" class="col-xs-6"><img src="./avatar2.jpg" height="150px"></div>
+          <div id="box-zprava" class="col-xs-6">
+            <h1>sophieouye</h1>
+            <p>Není hezčí zprávy, než smsky od ppl/gls, že budou doručovat balíček 🥰</p>
+          </div>
+        </div>
+        <div id="zprava" class="row">
+          <div id="box-zleva" class="col-xs-6"><img src="./avatar2.jpg" height="150px"></div>
+          <div id="box-zprava" class="col-xs-6">
+            <h1>ottovabara</h1>
+            <p>v dnešní době je snažší sehnat drogy než brigádu</p>
+          </div>
+      </div>
+      <div id="zprava" class="row">
+        <div id="box-zleva" class="col-xs-6"><img src="./avatar2.jpg" height="150px"></div>
+        <div id="box-zprava" class="col-xs-6">
+          <h1>zmijozel</h1>
+          <p>Kdyby jste měli možnost poslat si vzkaz do minulosti. Co by to bylo? Jen dvě slova 🤔</p>
+        </div>
+      </div>
+      </div>
+    </main>
+    <script src="./socket.io/socket.io.js"></script>
     <script src="./js/js.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
