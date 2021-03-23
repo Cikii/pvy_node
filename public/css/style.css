@@ -1,5 +1,6 @@
 nav{
-    background-color: rgb(250, 250, 250)
+    background-color: rgb(250, 250, 250);
+    width: 100%;
 }
 
 #logo{
@@ -16,7 +17,7 @@ h1{
 }    
 
 #status{
-    width: 50%;
+    width: 45%;
     margin-left: 220px;
     margin-top: -30px;
 }
